@@ -1,0 +1,34 @@
+/* styles.css */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000; /* Cambiar el color de los botones de navegación */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000; /* Cambiar el color de la bala activa de la paginación */
+}
+
+/* Agrega estas clases a tu archivo styles.css o en un archivo CSS separado */
+.custom-swiper .swiper-button-prev,
+.custom-swiper .swiper-button-next {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.custom-swiper .swiper-button-prev:hover,
+.custom-swiper .swiper-button-next:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Asegúrate de que los iconos de navegación estén centrados */
+.custom-swiper .swiper-button-prev::after,
+.custom-swiper .swiper-button-next::after {
+  font-size: 1.5rem;
+}

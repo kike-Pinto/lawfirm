@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Appointment */
+@layer utilities {
+  .bg-appointment {
+    @apply bg-center bg-cover bg-no-repeat;
+    background-image: linear-gradient(
+        rgba(55, 55, 63, 0.7),
+        rgba(55, 55, 63, 0.7)
+      ),
+      url('../src/images/carousel-1.jpg');
+    background-size: cover;
+  }
+}
+
+/* Appointment */
+@layer utilities {
+  .bg-action {
+    @apply bg-center bg-cover bg-no-repeat;
+    background-image: linear-gradient(
+        rgba(55, 55, 63, 0.7),
+        rgba(55, 55, 63, 0.7)
+      ),
+      url('../src/images/carousel-2.jpg');
+    background-size: cover;
+  }
+}

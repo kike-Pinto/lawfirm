@@ -1,0 +1,307 @@
+.custom-swiper2 {
+  position: relative;
+  z-index: 10;
+}
+
+.custom-swiper2 .swiper-button-prev,
+.custom-swiper2 .swiper-button-next {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 20%;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  color: #ffffff;
+  top: 20px; /* Posiciona las flechas en la parte superior del contenedor */
+}
+
+.custom-swiper2 .swiper-button-prev::after,
+.custom-swiper2 .swiper-button-next::after {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.custom-swiper2 .swiper-button-prev {
+  left: 320px;
+}
+
+.custom-swiper2 .swiper-button-next {
+  right: 320px;
+}
+
+/* Hide pagination bullets */
+.custom-swiper2 .swiper-pagination-bullet {
+  display: none;
+}
+
+.bg-primary {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .custom-swiper2 .swiper-button-prev,
+  .custom-swiper2 .swiper-button-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 10px; /* Ajusta la posición de las flechas para pantallas pequeñas */
+  }
+
+  .custom-swiper2 .swiper-button-prev {
+    left: 110px;
+    top: 30px;
+    border-radius: 20%;
+  }
+
+  .custom-swiper2 .swiper-button-next {
+    right: 110px;
+    top: 30px;
+    border-radius: 20%;
+  }
+}
+
+.custom-datepicker,
+.custom-time-input {
+  z-index: 9999 !important;
+  width: 100%;
+  height: 50px;
+  padding: 1.1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: border-color 0.15s ease-in-out;
+  /* Otros estilos necesarios */
+}
+
+.custom-datepicker {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.custom-calendar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 9999;
+  background: white;
+}
+
+.react-calendar {
+  width: 100%;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Custom Swiper 3 -- Our Attorneys */
+.custom-swiper3 {
+  position: relative;
+  z-index: 10;
+}
+
+.custom-swiper3 .swiper-button-prev,
+.custom-swiper3 .swiper-button-next {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 20%;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  color: #ffffff;
+  top: 20px; /* Posiciona las flechas en la parte superior del contenedor */
+}
+
+.custom-swiper3 .swiper-button-prev::after,
+.custom-swiper3 .swiper-button-next::after {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.custom-swiper3 .swiper-button-prev {
+  left: 550px;
+}
+
+.custom-swiper3 .swiper-button-next {
+  right: 550px;
+}
+
+/* Hide pagination bullets */
+.custom-swiper3 .swiper-pagination-bullet {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .custom-swiper3 .swiper-button-prev,
+  .custom-swiper3 .swiper-button-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 10px; /* Ajusta la posición de las flechas para pantallas pequeñas */
+  }
+
+  .custom-swiper3 .swiper-button-prev {
+    left: 150px;
+    top: 30px;
+    background-color: #000000;
+    border-radius: 20%;
+  }
+
+  .custom-swiper3 .swiper-button-next {
+    right: 150px;
+    top: 30px;
+    background-color: #000000;
+    border-radius: 20%;
+  }
+}
+
+@media (max-width: 640px) {
+  .custom-container {
+    max-width: 325px;
+  }
+  .custom1 {
+    margin: 1.5rem;
+  }
+  .custom-swiper3 .swiper-button-prev {
+    top: 20px;
+    left: 140px;
+  }
+  .custom-swiper3 .swiper-button-next {
+    top: 20px;
+    right: 140px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .custom-container {
+    max-width: 300px;
+    .custom1 {
+      margin: 1.5rem;
+    }
+    .custom-swiper3 .swiper-button-prev {
+      top: 20px;
+    }
+    .custom-swiper3 .swiper-button-next {
+      top: 20px;
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  .custom-container {
+    max-width: 300px;
+  }
+  .custom1 {
+    margin: 1.5rem;
+  }
+  .custom-swiper3 .swiper-button-prev {
+    top: 20px;
+  }
+  .custom-swiper3 .swiper-button-next {
+    top: 20px;
+  }
+}
+
+.testimonial-text::after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  bottom: -24px;
+  left: 28px;
+  border: 12px solid;
+  border-color: #37373f transparent transparent transparent;
+  z-index: 1;
+}
+
+/* estilos.css */
+/* .slick-dots {
+  position: absolute;
+  top: -30px;
+  width: 100%;
+  display: flex !important;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+}
+
+.slick-dots li button:before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slick-dots li.slick-active button:before {
+  background-color: #f00; 
+} */
+
+/* estilos.css */
+.testimonial-carousel .slick-dots {
+  position: absolute;
+  width: 100%;
+  top: -50px;
+  text-align: center;
+}
+
+.testimonial-carousel .slick-dots li {
+  display: inline-block;
+  margin: 0 8px;
+  position: relative;
+}
+
+.testimonial-carousel .slick-dots li button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #b49c73;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial-carousel .slick-dots li button::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  width: 30px;
+  height: 30px;
+  border: 3px solid #b49c73;
+  border-radius: 50%;
+  background: transparent;
+  z-index: -1;
+}
+
+.testimonial-carousel .slick-dots li.slick-active button {
+  background: #343a40;
+}
