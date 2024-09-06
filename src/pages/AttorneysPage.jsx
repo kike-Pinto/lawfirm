@@ -8,7 +8,7 @@ const AttorneysPage = () => {
   return (
     <>
       {/* <div className='relative w-full h-full pt-32 pb-40 lg:pb-60 lg:pt-10 '> */}
-      <div className='relative w-full pt-20 lg:pt-24 mb-32'>
+      <div className='relative w-full pt-20 lg:pt-24'>
         <img
           src={carousel2}
           alt='example'
@@ -35,7 +35,7 @@ const AttorneysPage = () => {
         </div>
       </div>
 
-      <div className=''>
+      {/* <div className=''>
         <div className='mb-40'>
           <Attorneys />
         </div>
@@ -47,6 +47,20 @@ const AttorneysPage = () => {
         <div className=''>
           <Features />
         </div>
+      </div> */}
+
+      <div className='max-w-screen-xl mx-auto px-4 lg:px-8 xl:px-16 xxl:px-[77px] mt-16'>
+        <Attorneys />
+      </div>
+
+      {/* Alineación del Appointment, ajustando el margen superior y padding lateral mt-[-100px] */}
+      <div className='max-w-screen-xl mx-auto px-4 lg:px-8 xl:px-16 xxl:px-[77px] mt-20'>
+        <Appointment />
+      </div>
+
+      {/* Ajuste similar para el Features */}
+      <div className='max-w-screen-xl mx-auto px-4 lg:px-8 xl:px-[60px] xxl:px-[73px] mt-40'>
+        <Features />
       </div>
     </>
   )

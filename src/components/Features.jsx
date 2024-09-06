@@ -4,10 +4,10 @@ import feature from '../images/feature.jpg'
 const Features = () => {
   return (
     // <div className='relative w-full overflow-hidden p-9 lg:px-14'>
-    <div className='relative overflow-hidden px-5 py-5'>
+    <div className='relative overflow-hidden py-0'>
       {/* <div className='w-full px-5 py-5'> */}
       {/* <div className='mx-auto lg:px-64 lg:pr-80 w-full '> */}
-      <div className='rounded mx-auto px-0 lg:px-5 py-10 lg:max-w-[1280px] w-full'>
+      <div className='rounded mx-auto py-10 lg:max-w-[1280px] w-full'>
         <div className='relative flex flex-wrap lg:flex-nowrap'>
           <div className='w-full lg:w-1/2 min-h-[630px] rounded-lg overflow-hidden'>
             <img

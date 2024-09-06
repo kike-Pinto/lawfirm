@@ -15,18 +15,18 @@ import ContactPage from './pages/ContactPage'
 function App() {
   return (
     <Router>
-      {/* <div className='App'> */}
       <Header1 />
-      <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='/about' element={<AboutPage />} />
-        <Route path='/practice' element={<PracticePage />} />
-        <Route path='/attorneys' element={<AttorneysPage />} />
-        <Route path='/contact' element={<ContactPage />} />
-      </Routes>
+      <div>
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/about' element={<AboutPage />} />
+          <Route path='/practice' element={<PracticePage />} />
+          <Route path='/attorneys' element={<AttorneysPage />} />
+          <Route path='/contact' element={<ContactPage />} />
+        </Routes>
+      </div>
       <Footer />
       <BackToTopBtn />
-      {/* </div> */}
     </Router>
   )
 }

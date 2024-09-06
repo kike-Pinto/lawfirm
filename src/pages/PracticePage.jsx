@@ -35,15 +35,18 @@ const PracticePage = () => {
         </div>
       </div>
 
-      <div className='lg:p-40 py-28'>
+      <div className='max-w-screen-xl mx-auto px-4 lg:px-8 xl:px-16 xxl:px-[77px] mt-40'>
         <Practice />
-        <div className=''>
-          <Action />
-        </div>
+      </div>
 
-        <div className='mt-[-120px] mx-[-120px] -mb-28'>
-          <Testimonial />
-        </div>
+      {/* Alineación del Appointment, ajustando el margen superior y padding lateral mt-[-100px] */}
+      <div className='max-w-screen-xl mx-auto px-4 lg:px-8 xl:px-16 xxl:px-[77px] mt-60'>
+        <Action />
+      </div>
+
+      {/* Ajuste similar para el Features */}
+      <div className='max-w-screen-xl mx-auto px-4 lg:px-8 xl:px-[60px] xxl:px-[73px]'>
+        <Testimonial />
       </div>
     </>
   )

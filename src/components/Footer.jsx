@@ -6,31 +6,43 @@ const Footer = () => {
       className='lg:max-w-full bg-secondary text-white pt-5 px-3 md:px-5'
       style={{ marginTop: '90px' }}
     >
-      <div className='flex flex-wrap mt-5 bg-opacity-5 bg-white'>
-        <div className='w-full lg:w-1/3 p-4 -mx-20 lg:mx-0'>
-          <div className='flex justify-center lg:justify-center lg:p-6 lg:bg-opacity-5 lg:bg-white'>
+      <div className='flex lgl:flex-row sm:flex-col flex-wrap mt-5 bg-opacity-5 bg-white'>
+        <div className='w-full md:w-1/3 p-4'>
+          <div className='flex items-center justify-center sm:justify-start lg:p-6 lg:bg-opacity-5 lg:bg-white'>
             <i className='fa fa-2x fa-map-marker-alt text-primary'></i>
             <div className='ml-3 px-1'>
-              <h5 className='text-white font-bold font-roboto'>Our Office</h5>
-              <p className='font-montserrat m-0'>Location, City, Country</p>
+              <h5 className='text-white font-bold font-roboto text-sm sm:text-base'>
+                Our Office
+              </h5>
+              <p className='font-montserrat m-0 text-xs sm:text-sm'>
+                Location, City, Country
+              </p>
             </div>
           </div>
         </div>
-        <div className='w-full lg:w-1/3 p-4 -mx-24 lg:mx-0'>
-          <div className='flex justify-center lg:justify-center lg:p-6 lg:bg-opacity-5 lg:bg-white'>
+        <div className='w-full md:w-1/3 p-4'>
+          <div className='flex items-center justify-center sm:justify-start lg:p-6 lg:bg-opacity-5 lg:bg-white'>
             <i className='fa fa-2x fa-envelope-open text-primary'></i>
             <div className='ml-3 px-1'>
-              <h5 className='text-white font-bold font-roboto'>Email Us</h5>
-              <p className='font-montserrat m-0'>info@example.com</p>
+              <h5 className='text-white font-bold font-roboto text-sm sm:text-base'>
+                Email Us
+              </h5>
+              <p className='font-montserrat m-0 text-xs sm:text-sm'>
+                info@example.com
+              </p>
             </div>
           </div>
         </div>
-        <div className='w-full lg:w-1/3 p-4 -mx-28 lg:mx-0'>
-          <div className='flex justify-center lg:justify-center lg:p-6 lg:bg-opacity-5 lg:bg-white'>
+        <div className='w-full md:w-1/3 p-4'>
+          <div className='flex items-center justify-center sm:justify-start lg:p-6 lg:bg-opacity-5 lg:bg-white'>
             <i className='fa fa-2x fa-phone-alt text-primary'></i>
             <div className='ml-3 px-1'>
-              <h5 className='text-white font-bold font-roboto'>Call Us</h5>
-              <p className='font-montserrat m-0'>+012 345 6789</p>
+              <h5 className='text-white font-bold font-roboto text-sm sm:text-base'>
+                Call Us
+              </h5>
+              <p className='font-montserrat m-0 text-xs sm:text-sm'>
+                +012 345 6789
+              </p>
             </div>
           </div>
         </div>
@@ -39,11 +51,11 @@ const Footer = () => {
       <div className='flex flex-wrap pt-5 px-4'>
         <div className='w-full lg:w-1/4 md:w-1/2 mb-5 lg:pr-3'>
           <a href='/'>
-            <h1 className='uppercase text-primary text-6xl font-bold font-roboto mt-2'>
+            <h1 className='uppercase text-primary text-5xl font-bold font-roboto mt-2'>
               Justice
             </h1>
           </a>
-          <p className='mt-2 font-montserrat'>
+          <p className='mt-2 font-montserrat text-[0.9rem] lgl:text-[1rem] md:pr-20 lg:pr-0'>
             Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem
             lorem sit sed elitr sed kasd et
           </p>
@@ -75,8 +87,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='w-full lg:w-1/4 md:w-1/2 mb-5'>
-          <h4 className='font-semibold font-roboto text-primary text-2xl mb-5'>
+        <div className='w-full lg:w-1/4 md:w-1/2 mb-5 text-[0.9rem] lgl:text-[1rem] lg:pl-12'>
+          <h4 className='font-semibold font-roboto text-primary text-xl mb-5 mt-3'>
             Popular Links
           </h4>
           <div className='flex flex-col justify-start mb-5 space-y-2'>
@@ -98,8 +110,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='w-full lg:w-1/4 md:w-1/2 mb-5'>
-          <h4 className='font-semibold font-roboto text-primary text-2xl mb-5'>
+        <div className='w-full lg:w-1/4 md:w-1/2 mb-5 text-[0.9rem] lgl:text-[1rem] lg:pl-6'>
+          <h4 className='font-semibold font-roboto text-primary text-xl mb-5 mt-3'>
             Quick Links
           </h4>
           <div className='flex flex-col justify-start mb-5 space-y-2'>
@@ -121,34 +133,34 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='w-full lg:w-1/4 md:w-1/2 mb-5'>
-          <h4 className='font-semibold text-primary mb-4 font-roboto text-2xl'>
+        <div className='w-full lg:w-1/4 md:w-1/2 mb-5 text-[0.9rem] lgl:text-[1rem]'>
+          <h4 className='font-semibold text-primary font-roboto text-xl mb-5 mt-3'>
             Newsletter
           </h4>
-          <p>
+          <p className='text-[0.9rem] lgl:text-[1rem]'>
             Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum
             sea tempor magna tempor. Accu kasd sed ea duo ipsum.
           </p>
-          <div className='w-full'>
-            <div className='flex'>
+          <div className='w-full px-0 mt-5'>
+            <div className='flex flex-col gap-4 '>
               <input
                 type='text'
-                className='flex-grow p-3 mt-5 rounded-lg border-10'
+                className='flex-grow p-3 rounded-lg border-2'
                 placeholder='Your Email'
               />
-              <button className='bg-primary hover:bg-[#948056] text-black py-3 px-8 mt-5 rounded-md hover:text-white font-montserrat font-bold'>
+              <button className='bg-primary hover:bg-[#948056] text-black py-3 px-6 rounded-md hover:text-white font-montserrat font-bold'>
                 Sign Up
               </button>
             </div>
           </div>
         </div>
       </div>
-      <div className='flex flex-wrap p-4 mt-5 mx-0 bg-white bg-opacity-5'>
+      <div className='flex flex-wrap p-4 mt-5 mx-0 xs:text-[0.8rem] bg-white bg-opacity-5'>
         <div className='w-full md:w-1/2 text-center md:text-left mb-3 md:mb-0'>
           <p className='m-0 text-white font-montserrat'>
             &copy;{' '}
             <a className='font-bold text-primary' href='/'>
-              Your Site Name
+              Kike-Pinto
             </a>
             . All Rights Reserved.
           </p>

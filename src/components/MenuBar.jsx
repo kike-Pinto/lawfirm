@@ -205,7 +205,7 @@ const MenuBar = () => {
               )}
             </div>
             <NavLink
-              href='/contact'
+              to='/contact'
               activeLink={activeLink}
               setActiveLink={setActiveLink}
             >

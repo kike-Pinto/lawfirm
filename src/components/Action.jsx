@@ -2,8 +2,8 @@ import React from 'react'
 
 const Action = () => {
   return (
-    <div className='w-full py-5 px-10 lg:px-28'>
-      <div className='py-28 max-w-[1240px] mx-auto'>
+    <div className='w-full py-0'>
+      <div className='py-20 lgl:max-w-[1240px] mx-auto'>
         <div className='bg-action rounded h-[600px]'>
           <div className='flex items-center justify-center h-full'>
             <div className='text-center max-w-lg'>

@@ -10,17 +10,22 @@ import 'swiper/css/pagination'
 import 'swiper/css/effect-fade'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules'
+import '../styles/estilos.css'
 
 const Attorneys = () => {
   return (
-    <div className='w-full py-5 px-5'>
-      <div className='container mx-auto py-5'>
-        <div className='text-center pb-3'>
+    <div className='w-full py-0'>
+      {/* <div className='container mx-auto py-5'> */}
+      <div className='py-28 lgl:max-w-[1240px] mx-auto'>
+        <div className='text-center pb-3 mb-5'>
           <h6 className='uppercase'>Our Attorneys</h6>
-          <h1 className='text-4xl lg:text-5xl font-bold'>Meet Our Attorneys</h1>
+          <h1 className='text-2xl md:text-4xl lg:text-5xl font-bold'>
+            Meet Our Attorneys
+          </h1>
         </div>
         <div className='flex flex-wrap justify-center'>
-          <div className='w-full text-center mt-1 lg:w-[1300px] h-[500px]'>
+          {/* <div className='w-full text-center mt-1 lgl:w-[1300px] lg:px-16 h-[500px]'> */}
+          <div className='w-full text-center mt-1 h-[500px] lgl:-px-20'>
             <div className='bg-primary rounded h-[206px] custom1'>
               {/* <div className='relative mt-[-97px] px-7.5'> */}
               <Swiper
@@ -36,20 +41,24 @@ const Attorneys = () => {
                 breakpoints={{
                   640: {
                     slidesPerView: 1,
-                    spaceBetween: 0,
+                    spaceBetween: 20,
                   },
                   768: {
                     slidesPerView: 2,
-                    spaceBetween: 0,
+                    spaceBetween: 20,
                   },
                   1024: {
-                    slidesPerView: 4,
-                    spaceBetween: 0,
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                  },
+                  1280: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
                   },
                 }}
               >
                 <SwiperSlide>
-                  <div className='custom-container text-center bg-white rounded overflow-hidden mt-24 pt-8 lg:w-[270px] sm:w-[200px] mx-auto pb-5'>
+                  <div className='custom-container text-center bg-white rounded overflow-hidden mt-24 pt-8 w-full max-w-[280px] mx-auto'>
                     <h5 className='text-2xl mb-2 px-4 font-bold font-roboto'>
                       Attorney Name
                     </h5>
@@ -83,7 +92,7 @@ const Attorneys = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className='custom-container text-center bg-white rounded overflow-hidden mt-24 pt-8 lg:w-[270px] mx-auto'>
+                  <div className='custom-container text-center bg-white rounded overflow-hidden mt-24 pt-8 w-full sm:max-w-[280px] mx-auto'>
                     <h5 className='text-2xl mb-2 px-4 font-bold font-roboto'>
                       Attorney Name
                     </h5>
@@ -117,7 +126,7 @@ const Attorneys = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className='custom-container text-center bg-white rounded overflow-hidden mt-24 pt-8 lg:w-[270px] mx-auto'>
+                  <div className='custom-container text-center bg-white rounded overflow-hidden mt-24 pt-8 w-full  sm:max-w-[280px] mx-auto'>
                     <h5 className='text-2xl mb-2 px-4 font-bold font-roboto'>
                       Attorney Name
                     </h5>
@@ -151,7 +160,7 @@ const Attorneys = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className='custom-container text-center bg-white rounded overflow-hidden mt-24 pt-8 lg:w-[270px] mx-auto'>
+                  <div className='custom-container text-center bg-white rounded overflow-hidden mt-24 pt-8 w-full sm:max-w-[280px] mx-auto'>
                     <h5 className='text-2xl mb-2 px-4 font-bold font-roboto'>
                       Attorney Name
                     </h5>
@@ -185,7 +194,7 @@ const Attorneys = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className='custom-container text-center bg-white rounded overflow-hidden mt-24 pt-8 lg:w-[270px] mx-auto'>
+                  <div className='custom-container text-center bg-white rounded overflow-hidden mt-24 pt-8 w-full sm:max-w-[280px] mx-auto'>
                     <h5 className='text-2xl mb-2 px-4 font-bold font-roboto'>
                       Attorney Name
                     </h5>

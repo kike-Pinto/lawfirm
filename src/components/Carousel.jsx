@@ -30,7 +30,7 @@ const Carousel = () => {
                 alt='Slice 1'
                 className='absolute inset-0 w-full h-full object-cover brightness-75'
               />
-              <div className='relative z-10 p-4 md:p-8 text-center'>
+              <div className='relative z-10 p-4 md:p-8 text-center mt-20'>
                 {/* <div className='relative z-10 p-3 max-w-3xl text-center'> */}
                 <h2
                   className='text-white uppercase mb-8 font-roboto text-2xl'
@@ -61,7 +61,7 @@ const Carousel = () => {
                 alt='Slide 2'
                 className='absolute inset-0 w-full h-full object-cover brightness-75'
               />
-              <div className='relative z-10 p-4 md:p-8 text-center'>
+              <div className='relative z-10 p-4 md:p-8 text-center mt-20'>
                 <h4
                   className='text-white uppercase mb-8 font-roboto text-2xl'
                   style={{ letterSpacing: '3px', marginTop: '250px' }}

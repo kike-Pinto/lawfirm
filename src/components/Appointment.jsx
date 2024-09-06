@@ -25,7 +25,7 @@ const Appointment = () => {
   }
 
   return (
-    <div className='relative overflow-hidden px-5 py-20 lg:py-5 mb-20'>
+    <div className='relative overflow-hidden py-20 lg:py-5 mb-0'>
       <div className='bg-appointment rounded mx-auto px-5 py-20 lg:max-w-[1250px] w-full'>
         <div className='flex h-100 items-center justify-center'>
           <div className='w-[500px]'>
@@ -33,14 +33,14 @@ const Appointment = () => {
               className='rounded p-5 my-5'
               style={{ background: 'rgba(55, 55, 63, .7)' }}
             >
-              <h1 className='text-center text-white mb-8 mt-8 text-3xl sm:text-3xl lg:text-4xl font-semibold font-roboto'>
+              <h1 className='text-center text-white mb-8 mt-8 sml:text-3xl font-semibold font-roboto'>
                 Get An Appointment
               </h1>
               <form onSubmit={handleSubmit} className='relative p-4'>
                 <div className='mb-4'>
                   <input
                     type='text'
-                    className='border-0 p-4 rounded-md w-full'
+                    className='border-0 p-4 rounded-md w-full text-xs md:text-base'
                     placeholder='Your Name'
                     required
                   />
@@ -48,7 +48,7 @@ const Appointment = () => {
                 <div className='mb-4'>
                   <input
                     type='email'
-                    className='border-0 p-4 rounded-md w-full'
+                    className='border-0 p-4 rounded-md w-full text-xs md:text-base'
                     placeholder='Your Email'
                     required
                   />
@@ -61,7 +61,7 @@ const Appointment = () => {
                       value={format(startDate, 'dd/MM/yyyy', { locale: es })}
                       onClick={() => setIsCalendarOpen(!isCalendarOpen)}
                       readOnly
-                      className='p-4 mb-3 rounded cursor-pointer custom-datepicker w-full'
+                      className='p-4 mb-3 rounded cursor-pointer custom-datepicker w-full text-xs md:text-base'
                       placeholder={format(new Date(), 'dd/MM/yyyy', {
                         locale: es,
                       })}
@@ -72,7 +72,7 @@ const Appointment = () => {
                           onChange={handleDateChange}
                           value={startDate}
                           locale='es-ES'
-                          className='custom-calendar'
+                          className='custom-calendar text-xs md:text-base'
                           minDate={new Date()}
                         />
                       </div>
@@ -83,13 +83,13 @@ const Appointment = () => {
                       type='time'
                       value={time}
                       onChange={handleTimeChange}
-                      className='custom-time-input border-0 p-4 rounded-md w-full'
+                      className='custom-time-input border-0 p-4 rounded-md w-full text-xs md:text-base'
                     />
                   </div>
                 </div>
 
                 <div className='mb-4'>
-                  <select className='custom-select border-0 lg:-mt-3 px-4 py-4 mb-1 rounded-md w-full'>
+                  <select className='custom-select border-0 lg:-mt-3 px-4 py-4 mb-1 rounded-md w-full text-xs md:text-base'>
                     <option disabled selected>
                       Select A Service
                     </option>
@@ -100,7 +100,7 @@ const Appointment = () => {
                 </div>
                 <div>
                   <button
-                    className='bg-primary hover:bg-[#948056] text-black py-4 px-9 rounded-md hover:text-white font-montserrat font-bold w-full'
+                    className='bg-primary hover:bg-[#948056] text-black py-4 px-9 rounded-md hover:text-white font-montserrat font-bold w-full text-xs md:text-base'
                     type='submit'
                   >
                     Get An Appointment

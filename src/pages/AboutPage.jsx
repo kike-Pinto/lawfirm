@@ -23,12 +23,21 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-      <About />
-      <div className='mt-[-100px]'>
+      {/* Ajusta el padding horizontal (px) para alinear en todas las pantallas */}
+      {/* <div className='max-w-screen-xl mx-auto lg:px-16 lgl:px-12 xl:px-12 xxl:px-16'> */}
+      <div className='max-w-screen-xl mx-auto px-4 lg:px-8 xl:px-16 xxl:px-[77px] mt-32'>
+        <About />
+      </div>
+
+      {/* Alineación del Appointment, ajustando el margen superior y padding lateral mt-[-100px] */}
+      <div className='max-w-screen-xl mx-auto px-4 lg:px-8 xl:px-16 xxl:px-[77px] mt-32'>
         <Appointment />
       </div>
 
-      <Features />
+      {/* Ajuste similar para el Features */}
+      <div className='max-w-screen-xl mx-auto px-4 lg:px-8 xl:px-[60px] xxl:px-[73px] mt-24'>
+        <Features />
+      </div>
     </>
   )
 }

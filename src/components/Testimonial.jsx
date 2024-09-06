@@ -43,18 +43,20 @@ const settings = {
 
 const Testimonial = () => {
   return (
-    <div className='lg:max-w-7xl mx-auto w-full px-10 lg:px-5 py-16 testimonial-carousel'>
-      <div className='container mx-auto py-5'>
+    // <div className=' mx-auto w-full px-10 lg:px-5 xs:p-0 testimonial-carousel'>
+    <div className='w-full py-0 testimonial-carousel'>
+      {/* <div className='container mx-auto py-0 mt-0 px-1'> */}
+      <div className='py-28 lgl:max-w-[1240px] mx-auto'>
         <div className='text-center pb-3'>
-          <h6 className='uppercase mb-2 mt-24'>Testimonial</h6>
+          <h6 className='uppercase mb-2 mt-0'>Testimonial</h6>
           <h1 className='text-2xl lg:text-4xl font-roboto font-bold mb-20'>
             What Our Clients Say
           </h1>
         </div>
 
         <Slider {...settings}>
-          <div>
-            <div className='testimonial-text relative bg-secondary text-gray-200 text-center rounded px-10 py-10 m-3 mb-4 font-montserrat'>
+          <div className='w-full'>
+            <div className='testimonial-text relative bg-secondary text-gray-200 text-center rounded xs:px-5 xs:py-5 sml:px-10 sml:py-10 m-3 mb-4 font-montserrat'>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Repudiandae cumque architecto voluptate sunt impedit.
             </div>
@@ -72,7 +74,7 @@ const Testimonial = () => {
           </div>
 
           <div>
-            <div className='testimonial-text relative bg-secondary text-gray-200 text-center rounded px-10 py-10 m-3 mb-4 font-montserrat'>
+            <div className='testimonial-text relative bg-secondary text-gray-200 text-center rounded xs:px-5 xs:py-5 sml:px-10 sml:py-10 m-3 mb-4 font-montserrat'>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Repudiandae cumque architecto voluptate sunt impedit.
             </div>
@@ -90,7 +92,7 @@ const Testimonial = () => {
           </div>
 
           <div>
-            <div className='testimonial-text relative bg-secondary text-gray-200 text-center rounded px-10 py-10 m-3 mb-4 font-montserrat'>
+            <div className='testimonial-text relative bg-secondary text-gray-200 text-center rounded xs:px-5 xs:py-5 sml:px-10 sml:py-10 m-3 mb-4 font-montserrat'>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Repudiandae cumque architecto voluptate sunt impedit.
             </div>
@@ -108,7 +110,7 @@ const Testimonial = () => {
           </div>
 
           <div>
-            <div className='testimonial-text relative bg-secondary text-gray-200 text-center rounded px-10 py-10 m-3 mb-4 font-montserrat'>
+            <div className='testimonial-text relative bg-secondary text-gray-200 text-center rounded xs:px-5 xs:py-5 sml:px-10 sml:py-10 m-3 mb-4 font-montserrat'>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Repudiandae cumque architecto voluptate sunt impedit.
             </div>
