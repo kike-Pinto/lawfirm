@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/lawfirm/static/css/main.51027a0a.css",
+    "main.js": "/lawfirm/static/js/main.6b5f5fe6.js",
+    "static/js/453.f46120e2.chunk.js": "/lawfirm/static/js/453.f46120e2.chunk.js",
+    "static/media/fa-solid-900.ttf": "/lawfirm/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/fa-brands-400.ttf": "/lawfirm/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/lawfirm/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/fa-brands-400.woff2": "/lawfirm/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/about.jpg": "/lawfirm/static/media/about.ade46b23c25a29aeecb8.jpg",
+    "static/media/fa-regular-400.ttf": "/lawfirm/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/carousel-1.jpg": "/lawfirm/static/media/carousel-1.146198dc2c3e5ecfc7fc.jpg",
+    "static/media/carousel-2.jpg": "/lawfirm/static/media/carousel-2.a8f76f394ed65eef98c5.jpg",
+    "static/media/feature.jpg": "/lawfirm/static/media/feature.9d79c957a2e158f6366b.jpg",
+    "static/media/fa-regular-400.woff2": "/lawfirm/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/team-3.jpg": "/lawfirm/static/media/team-3.e574201102181b82b694.jpg",
+    "static/media/team-1.jpg": "/lawfirm/static/media/team-1.e71705ccc4a9d0a37757.jpg",
+    "static/media/team-2.jpg": "/lawfirm/static/media/team-2.bb1ae49da44059f4cbfd.jpg",
+    "static/media/team-4.jpg": "/lawfirm/static/media/team-4.0b6b86e5b068ba4a71ee.jpg",
+    "static/media/team-5.jpg": "/lawfirm/static/media/team-5.ec7cfac2773ff97e18da.jpg",
+    "static/media/fa-v4compatibility.ttf": "/lawfirm/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/lawfirm/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "static/media/slick.svg": "/lawfirm/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/lawfirm/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/lawfirm/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/lawfirm/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/lawfirm/index.html",
+    "main.51027a0a.css.map": "/lawfirm/static/css/main.51027a0a.css.map",
+    "main.6b5f5fe6.js.map": "/lawfirm/static/js/main.6b5f5fe6.js.map",
+    "453.f46120e2.chunk.js.map": "/lawfirm/static/js/453.f46120e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51027a0a.css",
+    "static/js/main.6b5f5fe6.js"
+  ]
+}
