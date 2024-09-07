@@ -1,6 +1,6 @@
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import './App.css'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 // import Header from './components/Header'
 import Header1 from './components/Header1'
 import HomePage from './pages/HomePage'

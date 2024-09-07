@@ -12,21 +12,6 @@ import Testimonial from '../components/Testimonial'
 const HomePage = () => {
   return (
     <>
-      {/* <Carousel />
-      <About />
-      <div className='lg:px-36'>
-        <Practice />
-      </div>
-      <div className='py-24'>
-        <Appointment />
-      </div>
-      <div className='mb-16'>
-        <Features />
-      </div>
-
-      <Action />
-      <Attorneys />
-      <Testimonial /> */}
       <Carousel />
       <div className='max-w-screen-xl mx-auto px-4 lg:px-8 xl:px-12 xxl:px-16 mt-40'>
         <About />

@@ -150,7 +150,6 @@ const ContactPage = () => {
             <div className='relative h-full rounded overflow-hidden'>
               <iframe
                 src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1178.485545322069!2d-71.53017659111617!3d-32.77310235247221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689c1befd47a3c1%3A0x75892826fefd39c9!2sCondominio%20Costa%20del%20Mar!5e0!3m2!1sen!2scl!4v1722099556974!5m2!1sen!2scl'
-                // className='w-full h-full'
                 width='800'
                 height='500'
                 allowfullscreen=''
