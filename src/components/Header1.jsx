@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import MenuBar from './MenuBar'
 import {
   FaFacebookF,
@@ -24,29 +25,22 @@ const Header = () => {
   }, [])
 
   return (
-    // <header className='w-full'>
     <header
       className={`${
         bg && 'shadow-md py-4'
       } p-0 lg:px-0 w-full fixed z-50 transition-all duration-300 bg-white`}
     >
-      {/* <header
-      className={`fixed top-0 pt-0 w-full z-50 transition-all duration-300 ${
-        bg ? 'bg-white shadow-md py-4 h-10' : 'bg-white py-2 h-16'
-      }`}
-     > */}
-
       <div className='flex'>
         {/* Parte Izquierda Menu JUSTICE */}
         <div className='lg:w-1/4 lg:h-34 bg-secondary hidden lg:flex items-center justify-center'>
-          <a
-            href='/'
+          <Link
+            to='/'
             className='w-100 h-100 inline-block py-[0.3125rem] mr-4 text-[1.25rem] leading-inherit whitespace-nowrap hover:no-underline focus:no-underline '
           >
             <h1 className='font-roboto text-5xl font-bold text-primary uppercase'>
               Justice
             </h1>
-          </a>
+          </Link>
         </div>
 
         <div className='lg:w-3/4'>
